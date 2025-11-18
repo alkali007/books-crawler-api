@@ -38,7 +38,7 @@ You can access it here:
   "raw_html": "<html>...</html>",
   "hash": "ab1293c32f1acf8c7b4ef1f0dd98d201"
 }
-
+````
 ### Collection: `changes`
 ```json
 {
@@ -51,4 +51,6 @@ You can access it here:
     "rating": { "old": 4.2, "new": 4.5 }
   }
 }
-
+```
+## Screenshot(s) or logs of successful crawl + scheduler runs
+<img width="2711" height="375" alt="image" src="https://github.com/user-attachments/assets/1f4c5579-14a6-4e3c-9c98-d26599d2873c" />
