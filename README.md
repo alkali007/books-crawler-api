@@ -1,5 +1,7 @@
 # Books Crawler + API + Scheduler
 
+https://books.toscrape.com/
+
 ## Setup
 1. Create a virtual environment
 2. Install dependencies
