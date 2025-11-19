@@ -34,7 +34,7 @@ You can access it here:
   "num_reviews": 130,
   "image_url": "http://example.com/image.jpg",
   "rating": 4.5,
-  "meta": { "publisher": "TechPress", "isbn": "978-1-234567-89-7" },
+  "meta": { "crawl timestamp": "", "status": "", "source URL" :"" },
   "raw_html": "<html>...</html>",
   "hash": "ab1293c32f1acf8c7b4ef1f0dd98d201"
 }
