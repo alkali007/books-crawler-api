@@ -2,47 +2,10 @@
 
 https://books.toscrape.com/
 
-## Setup instructions
-### 1. Install Miniconda (Linux)
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-
-### 2. Create environment from requirements.txt
-Create new environment (example name: books-api)
-conda create --name books-api --file requirements.txt
-
-### 3. Activate the environment
-conda activate books-api
-
-### 4. Clone the repository
-git clone https://github.com/alkali007/books-crawler-api.git
-cd books-crawler-api
-
-## Python version and dependency versions
-This project uses **Python 3.11**.
-
-### Key Dependencies
-The main libraries used are:
-
-- **FastAPI 0.121.1** – API framework  
-- **Uvicorn 0.35.0** – ASGI server  
-- **APScheduler 3.10.4** – Task scheduler  
-- **PyMongo 4.13.0** – MongoDB client  
-- **BeautifulSoup4 4.13.5** – HTML parsing  
-- **aiohttp 3.13.2** – Async HTTP client  
-- **python-dotenv 1.2.1** – Environment variable loader  
-
-You can find the complete list in `requirements.txt`.
-
-## Example .env file for config
-API_KEY=fad41b17245f09eaf6f1606da8df7ce9e746cf5af3c4d450dc54c3bbafad8432
-
-MONGO_USER=
-MONGO_PASSWORD=
-MONGO_HOST=localhost:27017
-MONGO_DB=books_db
-
-RATE_LIMIT=100
+## Setup
+1. Create a virtual environment
+2. Install dependencies
+3. Setup .env file
 
 ## Run API
 uvicorn api.api:app --host 0.0.0.0 --port 8000
