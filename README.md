@@ -36,7 +36,7 @@ You can access it here:
   "num_reviews": 130,
   "image_url": "http://example.com/image.jpg",
   "rating": 4.5,
-  "meta": { "crawl timestamp": "", "status": "", "source URL" :"" },
+  "meta": { "timestamp": "2025-11-18T08:09:35.213750", "status": "Success", "source_url" :"'https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html" },
   "raw_html": "<html>...</html>",
   "hash": "ab1293c32f1acf8c7b4ef1f0dd98d201"
 }
