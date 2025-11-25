@@ -10,6 +10,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 
 ### 2. Create environment from requirements.txt
 Create new environment (example name: books-api)
+
 conda create --name books-api --file requirements.txt
 
 ### 3. Activate the environment
@@ -17,6 +18,7 @@ conda activate books-api
 
 ### 4. Clone the repository
 git clone https://github.com/alkali007/books-crawler-api.git
+
 cd books-crawler-api
 
 ## Python version and dependency versions
@@ -39,8 +41,11 @@ You can find the complete list in `requirements.txt`.
 API_KEY=fad41b17245f09eaf6f1606da8df7ce9e746cf5af3c4d450dc54c3bbafad8432
 
 MONGO_USER=
+
 MONGO_PASSWORD=
+
 MONGO_HOST=localhost:27017
+
 MONGO_DB=books_db
 
 RATE_LIMIT=100
