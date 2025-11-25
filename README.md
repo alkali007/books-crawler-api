@@ -19,7 +19,7 @@ The API provides interactive documentation using Swagger UI.
 
 You can access it here:
 
-👉 **http://3.26.210.126:8000/docs**
+👉 **http://3.27.1.157:8000/docs**
 
 ## 📦 Sample MongoDB Document Structure
 
