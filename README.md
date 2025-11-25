@@ -11,7 +11,7 @@ https://books.toscrape.com/
 uvicorn api.api:app --host 0.0.0.0 --port 8000
 
 ## Run Scheduler
-python scheduler/scheduler.py
+python -m scheduler.scheduler
 
 ## 📘 Swagger UI (API Documentation)
 
