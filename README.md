@@ -3,18 +3,18 @@
 https://books.toscrape.com/
 
 ## Setup instructions
-# 1. Install Miniconda (Linux)
+### 1. Install Miniconda (Linux)
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 
-# 2. Create environment from requirements.txt
-# Create new environment (example name: books-api)
+### 2. Create environment from requirements.txt
+Create new environment (example name: books-api)
 conda create --name books-api --file requirements.txt
 
-# 3. Activate the environment
+### 3. Activate the environment
 conda activate books-api
 
-# 4. Clone the repository
+### 4. Clone the repository
 git clone https://github.com/alkali007/books-crawler-api.git
 cd books-crawler-api
 
